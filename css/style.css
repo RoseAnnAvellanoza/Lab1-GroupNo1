@@ -1,0 +1,68 @@
+body {
+  background: #708090;
+}
+
+.outer {
+  max-width: 550px;
+  background: #fff;
+  margin: 20px auto;
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.outer .title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #778899;
+  text-align: center;
+}
+
+.input {
+  position: relative;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.lab {
+  width: 200px;
+  margin-right: 10px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.input_val {
+  position: relative;
+  left: 12px;
+}
+
+.input_val2 {
+  position: relative;
+  left: 17px;
+}
+
+#title {
+  width: 320px;
+}
+
+.input_val3 {
+  position: relative;
+  left: 7px;
+}
+
+#middle {
+  margin-left: 20px;
+  margin-right: -3px;
+}
+
+.btn {
+  width: 200px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0;
+  background: #757575;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: 45px;
+}

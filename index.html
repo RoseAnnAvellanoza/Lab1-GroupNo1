@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>New Event</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="title">
+        Create a New Event
+      </div>
+
+      <form name="eventForm" id="eventForm" onsubmit="return save();">
+        <div class="input">
+          <label class="lab">Event Type:</label>
+          <select class="input_val2" id="type">
+            <option value="invalid" disabled selected>Choose one</option>
+            <option value="Formal">Formal</option>
+            <option value="Informal">Informal</option>
+            <option value="Casual">Casual</option>
+          </select>
+        </div>
+
+        <div class="input">
+          <label class="lab">Event Title:</label>
+          <input
+            type="text"
+            placeholder="Event Title"
+            class="input_val2"
+            id="title"
+          />
+        </div>
+
+        <div class="input">
+          <label class="lab">Event Dates:</label>
+          <input type="date" id="startDate" class="input_val" />
+          <label id="middle">to</label>
+          <input type="date" id="endDate" class="input_val" />
+        </div>
+
+        <div class="input">
+          <label class="lab">Posting Date:</label>
+          <input type="date" class="input_val3" id="postDate" />
+        </div>
+
+        <div class="input_check">
+          <label class="check">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+            Is Registered Required?
+          </label>
+        </div>
+        <div class="input_check">
+          <label class="check">
+            <input type="checkbox" />
+            Is this event associated with any Family Programs?
+          </label>
+        </div>
+        <div class="input_check">
+          <label class="check">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+            Upon Registration Completion, Are Users to Receive an Auto Generated
+            Email?
+          </label>
+        </div>
+        <div class="input_check">
+          <label class="check">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+            Is There a Point of Contact?
+          </label>
+        </div>
+        <div class="input_check">
+          <label class="check">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+            Is There a Hosting Command Point of Contact?
+          </label>
+        </div>
+        <input type="submit" value="Save" class="btn" />
+        <input type="reset" value="Cancel" class="btn" />
+      </form>
+    </div>
+  </body>
+</html>
